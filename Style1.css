@@ -1,0 +1,76 @@
+body { /* For Background-Image*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.295),rgba(0, 0, 0, 0.432)), url("home.jpg");
+  height: 741px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+ }
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+ }
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.topnav a {
+  float: right;
+  color:rgb(76, 113, 216);;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: rgb(130, 182, 247);
+}
+
+.hero-text {
+  text-align: center;
+  position: fixed;
+  top: 26%;
+  left: 34%;
+  color: rgb(71, 110, 219);
+}
+
+h1.serif {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.button {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(75, 110, 153);
+  background-color: rgb(130, 182, 247);
+  border: none;
+  border-radius: 12px;
+  font-family: "The Girl Next Door";
+}
+
+.button:hover {
+  background-color: rgb(75, 110, 153);
+}
+
+.myWorkBtn {
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}

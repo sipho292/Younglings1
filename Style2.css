@@ -1,0 +1,89 @@
+body { /* For Background-Image*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.295),rgba(0, 0, 0, 0.432)), url("about.jpg");
+  height: 733px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+ }
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+ }
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.topnav a {
+  float: right;
+  color:rgb(76, 113, 216);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: rgb(130, 182, 247);
+}
+
+.container {
+  width: 30%;
+  height: 70%;
+  position: fixed;
+  top: 17%;
+  left: 35%;
+  border-radius: 50%;
+}
+
+/*
+.hero-text1{
+  text-align: center;
+  position: fixed;
+  font-family: sans-serif;
+  top: 15.5%;
+  left: 45%;
+  font-size: 18px;
+  color:rgb(76, 113, 216);
+}
+
+h1 {
+  text-align: center;
+  position: fixed;
+  top: 4%;
+  left: 50%;
+  color: white;
+  font-size: 50px;
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
