@@ -1,0 +1,76 @@
+body { /* For Background-Image*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.295),rgba(0, 0, 0, 0.432)), url("home.jpg");
+  height: 741px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ }
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+ }
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.topnav a {
+  float: right;
+  color:rgb(129, 88, 121);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: rgb(223, 191, 216);
+}
+
+.hero-text {
+  text-align: center;
+  position: fixed;
+  top: 26%;
+  left: 34%;
+  color: rgb(129, 88, 121);
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.button {
+  font-size: 21px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(223, 191, 216);
+  border: none;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: rgb(129, 88, 121);
+  border: none;
+}
+
+.myWorkBtn {
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(175, 163, 163);
+  text-align: center;
+  text-decoration: none;
+}
+

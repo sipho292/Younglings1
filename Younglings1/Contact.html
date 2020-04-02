@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Siphosethu</title>
+    <link rel="stylesheet" href="Style3.css">
+  </head>
+
+<body>
+  <div class="container"></div>
+  <div class="topnav">
+    <a class="active" href="Contact.html">Contact</a>
+    <a href="About.html">About Me</a>
+    <a href="Home.html">Home</a>
+  </div>
+
+  <h1>LET'S GET IN TOUCH</h1>
+
+  <div>
+    <form id="contactform"> 
+      <p style="text-align:center">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="Your Name..." required><br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Your Lastname..."><br>
+
+        <label for="gender">Gender</label><br>
+        <select id="gender" name="gender">
+          <option value="pick something" selected></option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select><br>
+
+        <label for="email">Email Address</label><br>
+        <input type="text" id="email" name="emailaddress" placeholder="Your email address.." required><br>
+
+        <label for="subject">Message</label><br>
+        <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px;"></textarea><br>
+        <input type="submit" value="Submit"><br>
+      </p>
+    </form>
+  </div>
+
+</body>
+</html>

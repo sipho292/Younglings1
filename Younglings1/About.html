@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Siphosethu</title>
+  <link rel="stylesheet" href="Style2.css">
+</head>
+
+<body>
+  <div class="container"></div>
+  <div class="topnav">
+    <a href="Contact.html">Contact</a>
+    <a class="active" href="About.html">About Me</a>
+    <a href="Home.html">Home</a>
+  </div>
+
+  <div class="container">
+    <img src="photo1.jpg" width="420px" height="420px" style="border-radius: 50%">
+  </div>
+
+  <div class="container1">
+    <div class="h1">
+      <h1>Who Am I</h1>
+      <p>Siphosethu Duiker(21) is an ambitious female who is prepared<br> to achieve here desired goals. Siphosethu is a hard worker,<br>
+       goal orientated and self-motivated individual who is always<br>looking for a challenge that will enhance her skills and knowledge.<br> 
+       She likes to interact with other people and adapts easily in different<br>environments.
+      </p>
+    </div>
+  </div>
+
+  <div class="hero-text">
+    <div class="h1">
+      <h1>Goals & Objectives</h1>
+      <p>Gain new experiences, Strengthen profession relationships,<br>
+        Improve work perfomance and Expand my professional<br> knowledge & training.
+      </p>
+    </div>
+  </div>
+
+  <div class="hero-text2">
+    <div class="h1">
+      <h1>Skills & Experience</h1>
+      <p>The main area of my expertise is front-end<br> development (client side of the web).<br><br>
+        Coding experience: HTML5 & CSS3.
+      </p>
+    </div>
+  </div>
+
+  <div class="hero-text3">
+    <div class="h1">
+      <h1>Accomplishments</h1>
+      <P>Created a website for Mzamomtsha Primary School that is<br> easily accessable and navigable.<br><br>
+       <a href="https://mzamomtshaprimaryschool-dev-team-4.netlify.com/" target="_blank">Click to view Mzamomtsha Primary School Website</a>
+      </P>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://www.facebook.com/" target="_blank"><img src="face.png"></a>
+    <a href="https://www.intsagram.com/" target="_blank"><img src="insta.png"></a>
+    <p style="text-align: center;"> Design by: Siphosethu Duiker <a rel="nofollow noopener" href="https://www.younglings.capetown/" target="_blank">@Younglings.Africa</a></p>
+  </div>
+
+<script>
+  var SlideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  
+  }
+  slideIndex++;
+  if (SlideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slidesIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "active";
+  setTimeout(showSlides,2000);//change image every 4 seconds
+}
+</script>
+
+</body>
+</html>
